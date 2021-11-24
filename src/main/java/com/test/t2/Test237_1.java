@@ -22,6 +22,6 @@ public class Test237_1<T, U, V> {
 
     private void aMethod3() {
         //进行柯里化
-        Function6<Double, Function6<Double,Double>> addtax = taxRate -> price ->price + price*taxRate;
+        //Function6<Double, Function6<Double,Double>> addtax = taxRate -> price ->price + price*taxRate;
     }
 }

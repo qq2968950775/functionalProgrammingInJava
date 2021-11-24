@@ -17,7 +17,7 @@ public class Test237<T, U, V> {
     private void aMethod() {
         //使用元组作为函数的参数
         //
-        Function3<Double, Double> addTax = price -> price + price * taxRate;
+        //Function3<Double, Double> addTax = price -> price + price * taxRate;
 
     }
 

@@ -8,9 +8,9 @@ import com.test.interfaceDao.Function3;
 public class Test235<T,U,V>  {
     public static void main(String[] args) {
     Function2<Double,Double> d = Math::sin;
-    Double cos = Function3.compose(d,Math::sin).apply(2.0);
+    //Double cos = Function3.compose(d,Math::sin).apply(2.0);
 
-    double cos2 = Function3.<Double,Double,Double>highCompose().apply(d).apply(Math::sin).apply(2.0);
+    //double cos2 = Function3.<Double,Double,Double>highCompose().apply(d).apply(Math::sin).apply(2.0);
 
     }
     //返回的参数用于复合函数 f== uvFunction3 g== tuFunction3 z == t
